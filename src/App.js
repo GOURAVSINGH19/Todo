@@ -46,9 +46,9 @@ function App() {
 
   return (
     <TodoProvider value={{todos, addTodo, updateTodo, deleteTodo, toggleComplete}}>
-      <div className="bg-[#172842] min-h-screen py-8">
-                <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-black">
-                    <h1 className="text-2xl font-bold text-center mb-8 mt-2">Manage Your Todos</h1>
+      <div className=" min-h-screen py-8">
+                <div className="w-full todoitems max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-black">
+                    <h1 className="text-4xl text-white font-bold text-center mb-8 mt-2 header">Manage Your Todos</h1>
                     <div className="mb-4">
                         {/* Todo form goes here */} 
                         <Todoform />
